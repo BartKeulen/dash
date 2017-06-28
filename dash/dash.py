@@ -128,6 +128,7 @@ class Dash(object):
 
         self._layout = None
         self.routes = []
+        self.states = {}
 
     def _requires_auth(f):
         def class_decorator(*args, **kwargs):
